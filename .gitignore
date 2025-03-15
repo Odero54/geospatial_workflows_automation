@@ -1,0 +1,14 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Ignore Airflow logs and database
+airflow.db
+logs/
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
